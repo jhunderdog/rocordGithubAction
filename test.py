@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 import json
 
-response = requests.get("https://ridibooks.com/category/new-releases/2200")
+response = requests.get("http://paullab.co.kr/stock.html")
 
 response.encoding = 'utf-8'
 html = response.text
